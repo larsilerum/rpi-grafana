@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian:wheezy
+FROM resin/rpi-raspbian:jessie
 MAINTAINER Lars Larsson "lars.martin.larsson@gmail.com"
 RUN apt-get update
 RUN apt-get install libfontconfig
